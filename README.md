@@ -24,7 +24,7 @@ If browser sees response header<br>
 
 Note: This is just example and open for discussion.
 
-#Example2-DNS resolver load balance.<br>
+# Example2-DNS resolver load balance.<br>
 Introduce New Resource Record Type “RESOLVE”<br>
 DNS client send “RESOLVE” request to initial resolver ip.<br>
 DNS resolver send New Resolver ip as response.<br>
@@ -32,9 +32,9 @@ DNS client will set new ip as its resolver.<br>
 DNS traffic will diverted to new worker nodes servers.<br>
 Upon Revolver failure Client send “RESOLVE” request to its original resolver.<br>
 
-#Conclusion
+# Conclusion
 Load balancing could be customized without special hardware.<br>
-Load balancers could be eliminate by Implementing Similar methodology for any protocol.<br> 
+Load balancers could be eliminate by Implementing Similar methodology for <b>any protocol</b>.<br> 
 
 
 # This is open for modification.

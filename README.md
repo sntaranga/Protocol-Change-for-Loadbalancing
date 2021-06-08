@@ -1,4 +1,4 @@
-# protocol_change_for_loadbalancing
+# Protocol Change for Loadbalancing
 # Objective<br>
 Remove additional hardware or software to remove traffic load balance among instances<br>
 Protocol independent methodology<br>
